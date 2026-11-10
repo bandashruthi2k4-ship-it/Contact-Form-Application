@@ -1,0 +1,62 @@
+/* Overall webpage */
+body {
+    background: linear-gradient(to right, rgb(227, 71, 198), #687bce);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Contact heading */
+h2 {
+    text-align: center;
+    color: #080707;
+    font-size: 32px;
+}
+
+/* Contact form */
+form {
+    background-color: rgb(72, 157, 193);
+    width: 350px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(20, 3, 69, 0.584)
+}
+
+/* Input fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #c7c8cf;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* When clicking an input */
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #070707;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    background-color: #6549c9;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* Mouse hover effect */
+button:hover {
+    background-color: #746dc7;
+}
+
+
+
